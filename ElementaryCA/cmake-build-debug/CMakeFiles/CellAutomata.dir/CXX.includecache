@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alexe/Projects/School/Parallel Computing/ElementaryCA/ElementaryCA.cpp
+ElementaryCA.h
+/home/alexe/Projects/School/Parallel Computing/ElementaryCA/ElementaryCA.h
+iostream
+-
+
+/home/alexe/Projects/School/Parallel Computing/ElementaryCA/ElementaryCA.h
+vector
+-
+cstdint
+-
+

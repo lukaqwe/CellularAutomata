@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CellAutomata"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/alexe/Projects/School/Parallel Computing/ElementaryCA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/alexe/Projects/School/Parallel\ Computing/ElementaryCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/alexe/Projects/School/Parallel\ Computing/ElementaryCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/alexe/Projects/School/Parallel\ Computing/ElementaryCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/alexe/Projects/School/Parallel\ Computing/ElementaryCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/alexe/Projects/School/Parallel Computing/ElementaryCA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/alexe/Projects/School/Parallel\ Computing/ElementaryCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/alexe/Projects/School/Parallel\ Computing/ElementaryCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/alexe/Projects/School/Parallel\ Computing/ElementaryCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/alexe/Projects/School/Parallel\ Computing/ElementaryCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/alexe/Projects/School/Parallel Computing/ElementaryCA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/alexe/Projects/School/Parallel\ Computing/ElementaryCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/alexe/Projects/School/Parallel\ Computing/ElementaryCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/alexe/Projects/School/Parallel\ Computing/ElementaryCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/alexe/Projects/School/Parallel\ Computing/ElementaryCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CellAutomata">
+				<Option output="/home/alexe/Projects/School/Parallel Computing/ElementaryCA/cmake-build-debug/bin/CellAutomata" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexe/Projects/School/Parallel Computing/ElementaryCA/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexe/.conan/data/eigen/3.4.0/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include/eigen3"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/alexe/Projects/School/Parallel\ Computing/ElementaryCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 CellAutomata"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/alexe/Projects/School/Parallel\ Computing/ElementaryCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/alexe/Projects/School/Parallel\ Computing/ElementaryCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/alexe/Projects/School/Parallel\ Computing/ElementaryCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CellAutomata/fast">
+				<Option output="/home/alexe/Projects/School/Parallel Computing/ElementaryCA/cmake-build-debug/bin/CellAutomata" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexe/Projects/School/Parallel Computing/ElementaryCA/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexe/.conan/data/eigen/3.4.0/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include/eigen3"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/alexe/Projects/School/Parallel\ Computing/ElementaryCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 CellAutomata/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/alexe/Projects/School/Parallel\ Computing/ElementaryCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/alexe/Projects/School/Parallel\ Computing/ElementaryCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/alexe/Projects/School/Parallel\ Computing/ElementaryCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/alexe/Projects/School/Parallel Computing/ElementaryCA/ElementaryCA.cpp">
+			<Option target="CellAutomata"/>
+		</Unit>
+		<Unit filename="/home/alexe/Projects/School/Parallel Computing/ElementaryCA/ElementaryCA.h">
+			<Option target="CellAutomata"/>
+		</Unit>
+		<Unit filename="/home/alexe/Projects/School/Parallel Computing/ElementaryCA/main.cpp">
+			<Option target="CellAutomata"/>
+		</Unit>
+		<Unit filename="/home/alexe/Projects/School/Parallel Computing/ElementaryCA/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/alexe/Projects/School/Parallel Computing/ElementaryCA/cmake-build-debug/conanbuildinfo.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

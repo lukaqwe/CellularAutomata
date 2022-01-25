@@ -1,0 +1,1 @@
+/usr/bin/g++ -g  CMakeFiles/CellAutomata.dir/main.cpp.o CMakeFiles/CellAutomata.dir/ElementaryCA.cpp.o -o bin/CellAutomata  -lm 
